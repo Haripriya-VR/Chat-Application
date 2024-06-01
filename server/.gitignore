@@ -1,0 +1,7 @@
+# Ignore environment variable files
+.env
+
+# Ignore node dependencies
+node_modules/
+
+git rm -r --cached .env node_modules
